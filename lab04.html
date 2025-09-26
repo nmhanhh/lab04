@@ -5,14 +5,15 @@
   <meta name="description" content="Demonstrates some basic HTML content elements and CSS">
   <meta name="keywords" content="HTML5, tags">
   <meta name="author" content="A Lecturer" >
-  <link href="../lab04/styles/style.css" rel="stylesheet" type="text/css" media="all">
+  <link href="styles/style.css" rel="stylesheet" type="text/css" media="all">
   <title>HTML Structure and Content Elements + CSS</title>
 </head>
 <!-- This is a comment. Indenting child elements makes the markup much more readable -->
 <body>
+   <div class="container">
    <header>
-     <h1 id="violet">HTML 5 Structure and Content Elements with some CSS</h1>
-     <nav>
+     <h1>HTML 5 Structure and Content Elements with some CSS</h1>
+     <nav class="border">
          <a href="#headings">Heading and Paragraphs</a>
          <a href="#sc">Special Characters</a>
          <a href="#lists">Lists</a>
@@ -29,7 +30,7 @@
       </aside>
       <h2 id="headings">Headings and Paragraphs </h2>
       <p>Headings and paragraphs are BLOCK elements</p>
-      <h3>Headings</h3>
+      <h3 id="red">Headings</h3>
       <p>There are 6 levels of heading. Headings are logical marked. Do not skip levels. If you want to change the size of a heading, don't change its level - change the CSS.</p>
       <h3>Paragraphs</h3>
       <p>Paragraphs contain the body text of a web page. You cannot put another block element inside a paragraph.</p>
@@ -120,6 +121,7 @@
 	<footer>
 		<p>Lab04 - Task 3</p>
 	</footer>
+   </div>
 </body>
 
 </html>
